@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/PruebaTecnicaFinanzauto/static/css/main.17fe73a8.css",
-    "main.js": "/PruebaTecnicaFinanzauto/static/js/main.c73e636d.js",
-    "static/media/logo.png": "/PruebaTecnicaFinanzauto/static/media/logo.78c8e93be27fafa65478.png",
-    "index.html": "/PruebaTecnicaFinanzauto/index.html",
-    "main.17fe73a8.css.map": "/PruebaTecnicaFinanzauto/static/css/main.17fe73a8.css.map",
-    "main.c73e636d.js.map": "/PruebaTecnicaFinanzauto/static/js/main.c73e636d.js.map"
+    "main.css": "/PruebaTecnicaFront/static/css/main.4f143cd1.css",
+    "main.js": "/PruebaTecnicaFront/static/js/main.5435bfb7.js",
+    "static/media/logo.png": "/PruebaTecnicaFront/static/media/logo.78c8e93be27fafa65478.png",
+    "index.html": "/PruebaTecnicaFront/index.html",
+    "main.4f143cd1.css.map": "/PruebaTecnicaFront/static/css/main.4f143cd1.css.map",
+    "main.5435bfb7.js.map": "/PruebaTecnicaFront/static/js/main.5435bfb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.17fe73a8.css",
-    "static/js/main.c73e636d.js"
+    "static/css/main.4f143cd1.css",
+    "static/js/main.5435bfb7.js"
   ]
 }
