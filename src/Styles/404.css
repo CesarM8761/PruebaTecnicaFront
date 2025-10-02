@@ -1,0 +1,53 @@
+
+.pagina404-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    padding: 24px;
+}
+
+.pagina404-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 40px 60px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.pagina404-titulo {
+    font-size: 96px;
+    font-weight: 700;
+    color: #ef4444;
+    margin: 0;
+}
+
+.pagina404-mensaje {
+    font-size: 18px;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.pagina404-boton {
+    padding: 16px 32px;
+    border-radius: 12px;
+    border: none;
+    background-color: #22c55e;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.pagina404-boton:hover {
+    background-color: #16a34a;
+}

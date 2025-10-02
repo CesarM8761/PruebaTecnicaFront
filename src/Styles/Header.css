@@ -1,0 +1,135 @@
+/* HeaderPagina.css - estilos para el header */
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 12px 24px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.encabezado-izquierda {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo-header {
+  height: 40px;
+  width: 40px;
+}
+
+.navegacion-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.enlace-navegacion {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.enlace-navegacion:hover {
+  color: #4ade80;
+}
+
+.menu-desplegable {
+  position: relative;
+}
+
+.boton-desplegable {
+  color: #fff;
+  background: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: color 0.2s;
+  min-height: 100%;
+}
+
+.boton-desplegable:hover {
+  color: #4ade80;
+}
+
+.menu-items-desplegable {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  background-color: #111;
+  border-radius: 8px;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  z-index: 10;
+}
+
+.item-menu-desplegable {
+  display: block;
+  padding: 10px 16px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.item-menu-desplegable:hover {
+  background-color: #1f2937;
+}
+
+.encabezado-derecha {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.boton-iniciar-sesion,
+.boton-registrarse,
+.boton-cerrar-sesion {
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.boton-iniciar-sesion {
+  background-color: #a7f3d0;
+  color: #000;
+}
+
+.boton-registrarse {
+  background-color: #22c55e;
+  color: #fff;
+}
+
+.boton-iniciar-sesion:hover {
+  background-color: #81e6d9;
+}
+
+.boton-registrarse:hover {
+  background-color: #16a34a;
+}
+
+.acciones-usuario {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.boton-cerrar-sesion {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}

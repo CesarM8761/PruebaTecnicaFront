@@ -1,0 +1,102 @@
+.page-crear-publicacion {
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.contenedor-crear-publicacion {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo-crear-publicacion {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.campo-crear-publicacion {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.etiqueta-crear-publicacion {
+    font-size: 14px;
+    color: #aaa;
+    font-weight: 500;
+}
+
+.input-crear-publicacion,
+.textarea-crear-publicacion,
+.select-crear-publicacion {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #111;
+    color: #fff;
+    font-size: 14px;
+}
+
+.textarea-crear-publicacion {
+    resize: vertical;
+    min-height: 140px;
+}
+
+.wrapper-archivo-crear-publicacion {
+    position: relative;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px dashed #333;
+    background-color: #111;
+    cursor: pointer;
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    width: fit-content;
+    align-self: flex-start;
+}
+
+.input-archivo-crear-publicacion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.imagen-preview-crear-publicacion {
+    margin-top: 16px;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: contain;
+    border: 1px solid #333;
+}
+
+.boton-crear-publicacion {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4ade80;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background-color 0.3s;
+}
