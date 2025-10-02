@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import ReactDOM from "react-dom/client"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { HashRouter  as Router, Routes, Route } from "react-router-dom"
 
 import Landing from "./Pages/landing"
 import Publicacion from "./Pages/publicacion"
