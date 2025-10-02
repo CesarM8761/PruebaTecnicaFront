@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PruebaTecnicaFront/static/css/main.4f143cd1.css",
-    "main.js": "/PruebaTecnicaFront/static/js/main.5435bfb7.js",
+    "main.js": "/PruebaTecnicaFront/static/js/main.9127a6e0.js",
     "static/media/logo.png": "/PruebaTecnicaFront/static/media/logo.78c8e93be27fafa65478.png",
     "index.html": "/PruebaTecnicaFront/index.html",
     "main.4f143cd1.css.map": "/PruebaTecnicaFront/static/css/main.4f143cd1.css.map",
-    "main.5435bfb7.js.map": "/PruebaTecnicaFront/static/js/main.5435bfb7.js.map"
+    "main.9127a6e0.js.map": "/PruebaTecnicaFront/static/js/main.9127a6e0.js.map"
   },
   "entrypoints": [
     "static/css/main.4f143cd1.css",
-    "static/js/main.5435bfb7.js"
+    "static/js/main.9127a6e0.js"
   ]
 }
